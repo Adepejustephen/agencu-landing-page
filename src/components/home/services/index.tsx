@@ -29,7 +29,7 @@ export const Services = () => {
                 className="bg-white px-12 py-12 flex flex-col gap-4  w-full text-center"
               >
                 <img src={item.icon} alt={item.title} className="h-20" />
-                <h4 className="text-black text-xl md:text-xl font-bold">
+                <h4 className="text-black text-lg md:text-xl font-bold">
                   {item.title}
                 </h4>
                 <p className="text-bodyColor text-xs md:text-sm text-normal">

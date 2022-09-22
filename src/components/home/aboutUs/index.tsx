@@ -4,7 +4,7 @@ import { Button } from "../../generalComponents";
 
 export const AboutUs = () => {
   return (
-    <section className="w-full min-h-screen px-10 md:px-12 lg:px-20 py-10">
+    <section className="w-full min-h-screen px-10  md:px-12 lg:px-20 py-20">
       <div className=" w-full flex flex-col md:flex-row items-center justify-between min-h-full gap-6">
         {/* HERO LEFT */}
         <div className="md:w-6/12">
