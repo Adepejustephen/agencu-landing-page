@@ -4,12 +4,11 @@ import { Button } from "../../generalComponents";
 
 export const Hero = () => {
   return (
-    <section className="w-full min-h-screen px-8 lg:px-20 py-10">
+    <section className="w-full min-h-screen px-10 md:px-12 lg:px-20 py-10">
       <div className=" w-full flex flex-col-reverse md:flex-row items-center justify-between min-h-full gap-6">
-        
         {/* HERO LEFT */}
 
-        <div className="flex flex-col justify-center gap-8 md:w-6/12 md:justify-start">
+        <div className="flex flex-col justify-center text-center gap-8 md:w-6/12 md:justify-start md:text-left ">
           <h2 className="text-black text-3xl md:text-4xl lg:text-6xl font-bold">
             We are the best agency in the world
           </h2>
@@ -23,7 +22,6 @@ export const Hero = () => {
             <Button whiteBg>Learn more</Button>
           </div>
         </div>
-        
 
         {/* HERO RIGHT */}
 
