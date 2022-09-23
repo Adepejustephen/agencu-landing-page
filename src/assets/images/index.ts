@@ -7,6 +7,10 @@ import Cooper from "./cooper.png";
 import WorkImg1 from './works-img1.png'
 import WorkImg2 from './works-img2.png'
 import WorkImg3 from './works-img3.png'
+import Jerome from './jerome.png'
+import Robert from './Robert.png'
+import CodyFisher from './Codyfisher.png'
 
 
-export { HeroImage, AboutImage, Cooper, Simons, Hawkings, Waston, WorkImg1, WorkImg2, WorkImg3 };
+
+export { HeroImage, AboutImage, Cooper, Simons, Hawkings, Waston, WorkImg1, WorkImg2, WorkImg3, Robert, CodyFisher,Jerome };

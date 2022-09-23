@@ -99,7 +99,7 @@ export const Footer = () => {
         </h4>
         <input
           type="text"
-          className="rounded bg-black px-6 py-4 w-full text-#999999 text-xs font-normal md:text-sm"
+          className="rounded bg-black px-6 py-5 w-full text-#999999 text-xs font-normal md:text-sm"
           placeholder="Enter your email"
         />
         <Button>Subscribe</Button>

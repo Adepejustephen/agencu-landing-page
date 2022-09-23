@@ -1,9 +1,10 @@
-import { Button } from "../../generalComponents";
+import { testimonials } from "../../../data";
+import { Button, TestimonialCard } from "../../generalComponents";
 
 
 export const Testimonial = () => {
   return (
-    <section className="w-full min-h-screen py-28 px-10 md:px-12 lg:px-20">
+    <section className="w-full min-h-screen pt-28 px-10 md:px-12 lg:px-20">
       <div className="flex flex-col gap-16">
         {/* TITLE TEXT */}
 
@@ -18,22 +19,21 @@ export const Testimonial = () => {
 
         {/* TESTIMONIALS */}
 
-        {/* <div className="flex flex-col gap-10 items-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {works.map((item, id) => {
+        
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-20">
+            {testimonials.map((item, id) => {
               return (
-                <PortfolioCard
+                <TestimonialCard
                   key={id}
-                  alt={item.title}
+                  alt={item.name}
+                  name={item.name}
                   image={item.image}
-                  txt={item.txt}
-                  title={item.title}
+                  quote={item.quote}
+                  role={item.role}
                 />
               );
             })}
-          </div>
-          <Button>See All Portfolio </Button>
-        </div> */}
+        </div> 
 
         <div className="bg-black rounded min-h-medium w-full flex flex-col items-center py-10 px-10 gap-6 md:flex-row md:justify-between  lg:px-20">
           <div className="flex flex-col gap-6 text-center max-w-xs lg:max-w-md lg:text-left">
