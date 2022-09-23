@@ -20,7 +20,11 @@ module.exports = {
       minHeight: {
         medium: '21.75rem'
       }
+     
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  
+  ],
 };

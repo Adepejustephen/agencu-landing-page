@@ -93,7 +93,7 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <form action="" className="flex flex-col gap-10">
+      <form action="" className="flex flex-col gap-10 ">
         <h4 className="text-black text-md md:text-xl font-bold">
           Subscribe to our newsletter
         </h4>

@@ -1,6 +1,10 @@
 import React from 'react'
 import { Logo } from '../../../../assets';
 import { Button } from '../../button';
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
+
+// import {Lin/}
 
 export const Header = () => {
   return (
@@ -11,12 +15,56 @@ export const Header = () => {
         </div>
         <nav className="flex flex-col xl:flex-row lg:justify-between lg:items-center lg:w-6/12">
           <ul className="flex flex-col xl:flex-row lg:justify-between lg:items-center space-x-6">
-            <li className=" text-black font-medium text-base">Home</li>
-            <li className=" text-black text-base font-medium">Services</li>
-            <li className=" text-black text-base font-medium">About Us</li>
-            <li className=" text-black text-base font-medium">Portfolio</li>
+            <li>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-medium text-base text-blue"
+                    : "text-black font-medium text-base"
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <Link
+                to="services"
+                activeClass="font-medium text-base text-blue"
+                className="text-black font-medium text-base cursor-pointer"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="about"
+                activeClass="font-medium text-base text-blue"
+                className="text-black font-medium text-base cursor-pointer"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <NavLink
+                to="/portfolio"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-medium text-base text-blue"
+                    : "text-black font-medium text-base"
+                }
+              >
+                Portfolio
+              </NavLink>
+            </li>
           </ul>
-          <Button headerBtn>Contact</Button>
+          <Button linkbtn headerBtn>Contact</Button>
         </nav>
       </div>
     </header>

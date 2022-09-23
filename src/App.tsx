@@ -1,13 +1,19 @@
 import { Footer, Header } from "./components";
-import { Home } from "./pages";
+import { Contact, Home } from "./pages";
+import {Routes, Route} from 'react-router-dom'
 
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
-      <Footer/>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
   );
 }

@@ -2,7 +2,7 @@ import { serviceData } from "./serviceData";
 
 export const Services = () => {
   return (
-    <section className="w-full min-h-screen bg-lightBlue py-28 px-10 md:px-12 lg:px-20 ">
+    <section className="w-full min-h-screen bg-lightBlue py-28 px-10 md:px-12 lg:px-20 " id="services">
       <div className="flex flex-col gap-16 items-center">
         {/* TITLE TEXT */}
 
