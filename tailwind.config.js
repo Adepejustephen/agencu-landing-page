@@ -18,7 +18,8 @@ module.exports = {
         serif: ["Merriweather", "serif"],
       },
       minHeight: {
-        medium: '21.75rem'
+        medium: '21.75rem',
+        "400": "25rem"
       },
       width: {
         "320": "20rem",

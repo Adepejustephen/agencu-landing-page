@@ -13,6 +13,11 @@ import {
   Programming,
   Seo,
   UiUx,
+  Portfolio1,
+  Portfolio2,
+  Portfolio3,
+  Portfolio4,
+  Portfolio5,
 } from "../assets";
 import { FaqProps, PortfolioProps, ServiceProp, TeamProp, TestimonialProp } from "./model";
 
@@ -59,6 +64,34 @@ export const faqs: FaqProps[] = [
   {
     title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum mattis ultrices.",
+  },
+];
+
+export const portfolioData: PortfolioProps[] = [
+  {
+    image: Portfolio1,
+    title: "Medical Website",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+  {
+    image: Portfolio2,
+    title: "Cryptocurrency Website",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+  {
+    image: Portfolio3,
+    title: "Bitcoin investment Web ",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+  {
+    image: Portfolio4,
+    title: "Body builder Web",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+  {
+    image: Portfolio5,
+    title: "Dental Website ",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
   },
 ];
 

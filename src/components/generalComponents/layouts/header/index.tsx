@@ -4,7 +4,7 @@ import { Button } from '../../button';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
 
-// import {Lin/}
+
 
 export const Header = () => {
   return (
