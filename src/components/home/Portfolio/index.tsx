@@ -1,6 +1,7 @@
 import React from "react";
+import { works } from "../../../utils/data";
 import { Button, PortfolioCard } from "../../generalComponents";
-import { works } from "./portfolioData";
+
 
 export const HomePorfolio = () => {
   return (

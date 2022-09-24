@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { ArrowDown, ArrowUp } from "../../../assets";
-import { faqs } from "../../../data";
+import { faqs } from "../../../utils/data";
 
 type stateProps =  null | number;
 

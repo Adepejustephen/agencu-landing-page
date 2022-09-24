@@ -1,4 +1,5 @@
-import { serviceData } from "./serviceData";
+import { serviceData } from "../../../utils/data";
+
 
 export const Services = () => {
   return (

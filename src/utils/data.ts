@@ -1,5 +1,20 @@
-import { CodyFisher, Jerome, Robert } from "./assets";
-import { FaqProps, TestimonialProp } from "./model";
+import {
+  CodyFisher,
+  Jerome,
+  Robert,
+  WorkImg1,
+  WorkImg2,
+  WorkImg3,
+  Cooper,
+  Hawkings,
+  Simons,
+  Waston,
+  Graphic,
+  Programming,
+  Seo,
+  UiUx,
+} from "../assets";
+import { FaqProps, PortfolioProps, ServiceProp, TeamProp, TestimonialProp } from "./model";
 
 export const testimonials: TestimonialProp[] = [
   {
@@ -44,5 +59,69 @@ export const faqs: FaqProps[] = [
   {
     title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum mattis ultrices.",
+  },
+];
+
+export const works: PortfolioProps[] = [
+  {
+    image: WorkImg1,
+    title: "Real estate websites",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+  {
+    image: WorkImg2,
+    title: "Real estate websites",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+  {
+    image: WorkImg3,
+    title: "Real estate websites",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed consectetur malesuada sodales enim viverra odio diam. Nascetur dui elementum, ",
+  },
+];
+
+export const teamData: TeamProp[] = [
+  {
+    name: "Jane Cooper",
+    position: "Developer",
+    image: Cooper,
+  },
+  {
+    name: "Brooklyn Simmons",
+    position: "Designer",
+    image: Simons,
+  },
+  {
+    name: "Guy Hawkins",
+    position: "Marketer",
+    image: Hawkings,
+  },
+  {
+    name: "Kristin Watson",
+    position: "Photographer",
+    image: Waston,
+  },
+];
+
+export const serviceData: ServiceProp[] = [
+  {
+    title: "Web Design",
+    icon: Programming,
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    title: "UI/UX Design",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: UiUx,
+  },
+  {
+    title: "Graphics design",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: Graphic,
+  },
+  {
+    title: "SEO Marketing",
+    txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: Seo,
   },
 ];

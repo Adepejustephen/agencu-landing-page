@@ -1,6 +1,7 @@
 import React from "react";
 import { Dribble, Facebook, Instagram, PinInterest } from "../../../assets";
-import { teamData } from "./teamdata";
+import { teamData } from "../../../utils/data";
+
 
 export const Team = () => {
   return (

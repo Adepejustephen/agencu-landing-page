@@ -1,5 +1,5 @@
 import { Stars } from "../../../assets"
-import { TestimonialProp } from "../../../model"
+import { TestimonialProp } from "../../../utils/model"
 
 
 

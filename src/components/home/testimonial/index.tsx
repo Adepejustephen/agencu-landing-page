@@ -1,4 +1,4 @@
-import { testimonials } from "../../../data";
+import { testimonials } from "../../../utils/data";
 import { Button, TestimonialCard } from "../../generalComponents";
 
 
