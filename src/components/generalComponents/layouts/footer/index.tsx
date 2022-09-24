@@ -4,18 +4,18 @@ import { Button } from "../../button";
 
 export const Footer = () => {
   return (
-    <footer className="bg-footerBg w-full flex flex-wrap justify-between py-20  px-10 md:px-12 lg:px-20 lg:gap-32 ">
+    <footer className="bg-footerBg w-full flex gap-10 flex-wrap justify-between py-20  px-10 md:px-12 lg:px-20 lg:gap-32 ">
       {/* LOGO AND SOCIAL ICONS */}
       <div className="flex flex-col gap-8 max-w-xs">
         <div>
           <img src={Logo} alt="Logo" className="object-contain" />
         </div>
 
-        <p className="text-bodyColor text-xl md:text-sm font-normal">
+        <p className="text-bodyColor text-xs text-center  font-normal md:text-sm md:text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie
           nulla massa fringilla.
         </p>
-        <div className="flex gap-2 items-center">
+        <div className="flex  items-center md:gap-2">
           <img
             src={Twitter}
             alt="twitter"
@@ -49,7 +49,7 @@ export const Footer = () => {
         </div>
       </div>
       {/* LINKs */}
-      <div className="flex gap-20">
+      <div className="flex  justify-between gap-20">
         <div className="flex flex-col gap-10">
           <h4 className="text-black text-md md:text-xl font-bold">Menu</h4>
           <ul className="flex flex-col gap-5">

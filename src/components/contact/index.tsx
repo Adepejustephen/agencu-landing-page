@@ -4,7 +4,7 @@ import { Button } from "../generalComponents";
 
 export const ContactUI = () => {
   return (
-    <section className="w-full  py-16 md:px-25 lg:px-40">
+    <section className="w-full  px-5 py-16 md:px-25 lg:px-40">
       <div className="flex flex-col bg-#C2BDBD w-full shadow rounded px-10 py-10 gap-10 md:flex-row md:gap-x-16 lg:gap-28  md:px-20 ">
         <div className="flex flex-col gap-10 md:max-w-sm">
           <h4 className="text-black font-bold text-xl md:text-3xl">
@@ -35,7 +35,7 @@ export const ContactUI = () => {
           {/* Form Item */}
           <div className="flex flex-col gap-2">
             <label
-              htmlFor=""
+              htmlFor="full-name"
               className="text text-#000000 text-lg font-semibold md:text-xl "
             >
               Full Name
@@ -43,6 +43,7 @@ export const ContactUI = () => {
             <input
               type="text"
               placeholder="John Doe"
+              name="service"
               className="form-input border-0 border-b border-black focus:ring-0 focus:border-black p-2 text-black text-xs md:text-sm "
             />
           </div>
@@ -68,28 +69,43 @@ export const ContactUI = () => {
             </h4>
             <div className="flex  gap-4">
               <div className="flex  gap-3 items-center">
-                <input type="radio" className="   checked:bg-blue " />
+                <input
+                  id="webflow"
+                  type="radio"
+                  className="   checked:bg-blue cursor-pointer"
+                  name="service"
+                />
                 <label
-                  htmlFor=""
-                  className="text text-#000000 text-xs ffont-medium md:text-sm "
+                  htmlFor="webflow"
+                  className="text text-#000000 text-xs ffont-medium md:text-sm border-blue"
                 >
                   Webflow
                 </label>
               </div>
               <div className="flex  gap-3 items-center">
-                <input type="radio" className="   checked:bg-blue " />
+                <input
+                  type="radio"
+                  className="   checked:bg-blue cursor-pointer border-blue"
+                  name="service"
+                  id="ui-ux"
+                />
                 <label
-                  htmlFor=""
+                  htmlFor="ui-ux"
                   className="text text-#000000 text-xs font-medium md:text-sm "
                 >
                   UI/UX Design
                 </label>
               </div>
               <div className="flex  gap-3 items-center">
-                <input type="radio" className="   checked:bg-blue " />
+                <input
+                  type="radio"
+                  className="   checked:bg-blue cursor-pointer border-blue"
+                  name="service"
+                  id="seo"
+                />
                 <label
-                  htmlFor=""
-                  className="text text-#000000 text-xs font-medium md:text-sm "
+                  htmlFor="seo"
+                  className="text text-#000000 text-xs font-medium md:text-sm  "
                 >
                   SEO
                 </label>
@@ -100,7 +116,7 @@ export const ContactUI = () => {
           <div className="flex flex-col gap-2">
             <label
               htmlFor=""
-              className="text text-#000000 text-lg font-semibold md:text-xl "
+              className="text text-#000000 text-lg font-semibold md:text-xl r"
             >
               Message
             </label>
