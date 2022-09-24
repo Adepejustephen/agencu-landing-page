@@ -19,6 +19,12 @@ module.exports = {
       },
       minHeight: {
         medium: '21.75rem'
+      },
+      width: {
+        "320": "20rem",
+        "576": "36rem",
+        "800": "50rem",
+        "900": "56.25rem"
       }
      
     },

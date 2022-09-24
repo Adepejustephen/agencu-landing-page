@@ -5,7 +5,17 @@ import { Button } from "../generalComponents";
 export const ContactUI = () => {
   return (
     <section className="w-full  px-5 py-16 md:px-25 lg:px-40">
-      <div className="flex flex-col bg-#C2BDBD w-full shadow rounded px-10 py-10 gap-10 md:flex-row md:gap-x-16 lg:gap-28  md:px-20 ">
+      <div className="flex flex-col bg-#C2BDBD w-full shadow rounded px-10 py-10 gap-10 md:flex-row md:gap-x-16 lg:gap-28  md:px-20 relative overflow-hidden">
+        {/* Overlays */}
+
+        <div className="hidden h-40 w-64 bg-lightBlue absolute -right-16 -bottom-14 rounded-full md:inline-block z-0">
+          <div className="w-full h-full relative">
+            <div className="absolute h-20 w-20 bg-blue rounded-full left-5 -top-5 "></div>
+          </div>
+        </div>
+
+        {/* MAIN CONTENTS */}
+
         <div className="flex flex-col gap-10 md:max-w-sm">
           <h4 className="text-black font-bold text-xl md:text-3xl">
             Now Start Your project
@@ -126,7 +136,9 @@ export const ContactUI = () => {
               className="form-input border-0 border-b border-black focus:ring-0 focus:border-black p-2 text-black text-xs md:text-sm "
             />
           </div>
-          <Button>Send message</Button>
+          <div className="mt-10">
+            <Button>Send message</Button>
+          </div>
         </form>
       </div>
     </section>

@@ -24,7 +24,7 @@ export const Button: React.FC<ButtonProp> = ({ children, whiteBg, headerBtn, nob
               : "text-white text-sm font-medium md:text-base bg-blue rounded h-14 px-10 cursor-pointer"
           }
         >
-          <Link to='/contact'>{children}</Link>
+          <Link to="/contact">{children}</Link>
         </button>
       ) : (
         <button
@@ -34,8 +34,8 @@ export const Button: React.FC<ButtonProp> = ({ children, whiteBg, headerBtn, nob
               : headerBtn
               ? "text-white text-sm font-medium md:text-base bg-blue rounded h-10 px-10 cursor-pointer"
               : nobg
-              ? "border-solid border-b-2 border-blue text-sm font-medium md:text-base flex gap-3 text-black items-center py-3 cursor-pointer max-w-max"
-              : "text-white text-sm font-medium md:text-base bg-blue rounded h-14 px-10 cursor-pointer"
+              ? "border-solid border-b-2 border-blue text-sm font-medium md:text-base flex gap-3 text-black items-center py-3 cursor-pointer min-w-max"
+              : "text-white text-sm font-medium md:text-base bg-blue rounded h-14 px-10 cursor-pointer max-w-max"
           }
         >
           {children}

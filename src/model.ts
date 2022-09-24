@@ -5,3 +5,8 @@ export type TestimonialProp = {
     image: string;
     alt?: string;
 };
+
+export type FaqProps = {
+  title: string;
+  text: string;
+}
