@@ -3,13 +3,21 @@ import { Logo } from '../../../../assets';
 import { Button } from '../../button';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
+import { motion } from 'framer-motion';
+import { fadeInDown } from '../../../../utils/variants';
 
 
 
 export const Header = () => {
   return (
-    <header className="w-full border-solid border-b-2 border-headerBorder">
-      <div className="  px-10 md:px-12 lg:px-20  flex items-center h-20 justify-between">
+    <motion.header
+      className="w-full border-solid border-b-2 border-headerBorder sticky left-0 right-0 -top-0 z-10 bg-white"
+      variants={fadeInDown}
+      initial="initial"
+     
+      animate="animate"
+    >
+      <div className="  px-10 md:px-12 lg:px-20  flex items-center h-20 justify-between relative">
         <div>
           <img src={Logo} alt="Logo" className="object-contain" />
         </div>
@@ -64,9 +72,11 @@ export const Header = () => {
               </NavLink>
             </li>
           </ul>
-          <Button linkbtn headerBtn>Contact</Button>
+          <Button linkbtn headerBtn>
+            Contact
+          </Button>
         </nav>
       </div>
-    </header>
+    </motion.header>
   );
 }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import {motion} from 'framer-motion'
 
 type ButtonProp = {
   children: React.ReactNode;
@@ -7,13 +8,23 @@ type ButtonProp = {
   headerBtn?: boolean;
   linkbtn?: boolean;
   link?: React.LinkHTMLAttributes<HTMLLinkElement>;
+  variants?:any 
 };
 
-export const Button: React.FC<ButtonProp> = ({ children, whiteBg, headerBtn, nobg, linkbtn, link }) => {
+export const Button: React.FC<ButtonProp> = ({
+  children,
+  whiteBg,
+  headerBtn,
+  nobg,
+  linkbtn,
+  link,
+  variants,
+}) => {
   return (
     <>
       {linkbtn ? (
-        <button
+        <motion.button
+          variants={variants}
           className={
             whiteBg
               ? "text-blue font-medium text-sm md:text-base bg-white rounded h-14 px-8 border-solid border border-blue cursor-pointer"
@@ -25,9 +36,10 @@ export const Button: React.FC<ButtonProp> = ({ children, whiteBg, headerBtn, nob
           }
         >
           <Link to="/contact">{children}</Link>
-        </button>
+        </motion.button>
       ) : (
-        <button
+        <motion.button
+          variants={variants}
           className={
             whiteBg
               ? "text-blue font-medium text-sm md:text-base bg-white rounded h-14 px-8 border-solid border border-blue cursor-pointer"
@@ -39,7 +51,7 @@ export const Button: React.FC<ButtonProp> = ({ children, whiteBg, headerBtn, nob
           }
         >
           {children}
-        </button>
+        </motion.button>
       )}
     </>
   );
