@@ -14,7 +14,6 @@ export const Header = () => {
       className="w-full border-solid border-b-2 border-headerBorder sticky left-0 right-0 -top-0 z-10 bg-white"
       variants={fadeInDown}
       initial="initial"
-     
       animate="animate"
     >
       <div className="  px-10 md:px-12 lg:px-20  flex items-center h-20 justify-between relative">

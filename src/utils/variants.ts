@@ -149,12 +149,12 @@ export const headerButton = {
   },
 };
 
-export const rotateLine = {
-  initial: { rotate: 360, opacity: 0 },
+export const rotateImage = {
+  initial: { rotate: 180, opacity: 0 },
   animate: {
     rotate: 0,
     opacity: 1,
-    transition: { type: "spring", duration: 1 },
+    transition: { type: "spring", duration: 1,},
   },
 };
 export const blueBtn = {
