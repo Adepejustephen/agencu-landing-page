@@ -1,6 +1,6 @@
 import { serviceData } from "../../../utils/data";
 import {motion} from 'framer-motion'
-import { fadeInLeft, rotateImage, staggerContainer, staggerTextContainer, zoomOut } from "../../../utils/variants";
+import { fadeInLeft, staggerContainer, staggerTextContainer, zoomOut } from "../../../utils/variants";
 
 
 export const Services = () => {
@@ -14,7 +14,8 @@ export const Services = () => {
         variants={staggerContainer}
         initial="initial"
         viewport={{ once: false, amount: 0.4 }}
-        whileInView="animate"
+        // whileInView="animate"
+        animate="animate"
       >
         {/* TITLE TEXT */}
 
@@ -23,7 +24,8 @@ export const Services = () => {
           variants={staggerTextContainer}
           initial="initial"
           viewport={{ once: false, amount: 0.4 }}
-          whileInView="animate"
+          animate="animate"
+          // whileInView="animate"
         >
           <motion.p
             className="text-black text-base md:text-xl font-semibold"
@@ -53,7 +55,8 @@ export const Services = () => {
           variants={staggerContainer}
           initial="initial"
           viewport={{ once: false, amount: 0.4 }}
-          whileInView="animate"
+          animate="animate"
+          // whileInView="animate"
         >
           {serviceData.map((item, id) => {
             return (
@@ -62,12 +65,7 @@ export const Services = () => {
                 className="bg-white px-12 py-12 flex flex-col gap-4  w-full text-center"
                 variants={fadeInLeft}
               >
-                <img
-                  src={item.icon}
-                  alt={item.title}
-                  className="h-20"
-                 
-                />
+                <img src={item.icon} alt={item.title} className="h-20" />
                 <h4 className="text-black text-lg md:text-xl font-bold">
                   {item.title}
                 </h4>
