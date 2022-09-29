@@ -11,10 +11,10 @@ https://wibe-studio.netlify.app/ <br />
 
 
 ### Images of The Fashion Studio Website:
-![HOME](https://asset.cloudinary.com/dvgudwocb/6b979771a6e5c9028afe1b3a8b3fb856)
-![PORTFOLIO](https://asset.cloudinary.com/dvgudwocb/d498cb7af8161eeb12fb4d19870a6262)
-![HOME](https://asset.cloudinary.com/dvgudwocb/71c978b813d2388a19b174479011d6d0)
-![CONTACT](https://asset.cloudinary.com/dvgudwocb/62bb5ccb1957b1f3482682793f4e04a9)
+![HOME](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416899/github-reade-me/Agency-landing-page_2_agxjeu.png)
+![PORTFOLIO](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416899/github-reade-me/Agency-landing-page_3_m9dapg.png)
+![HOME](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416898/github-reade-me/Agency-landing-page_vtah8n.png)
+![CONTACT](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416897/github-reade-me/Agency-landing-page_4_okdiel.png)
 
 
 ### Resources Used in This Project
@@ -30,7 +30,7 @@ Fonts: https://fonts.google.com/ <br />
 
 ### Designed by👇:
 
-The app was designed by <br />
+This app was designed by <br />
 Ahsan Habib [https://www.figma.com/@ahsanhabib2]<br />
 
 
