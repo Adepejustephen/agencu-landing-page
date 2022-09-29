@@ -4,14 +4,14 @@
 
 This repository contains  code for Agency Website in ReactJS. <br />
 
-View Demo👇: <br />
-https://wibe-studio.netlify.app/ <br />
+Live Demo👇: <br />
+https://agency-landing-page-peach.vercel.app/ <br />
 
 
 
 
 ### Images of The Fashion Studio Website:
-![HOME](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416899/github-reade-me/Agency-landing-page_2_agxjeu.png)
+<!-- ![HOME](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416899/github-reade-me/Agency-landing-page_2_agxjeu.png) -->
 ![PORTFOLIO](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416899/github-reade-me/Agency-landing-page_3_m9dapg.png)
 ![HOME](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416898/github-reade-me/Agency-landing-page_vtah8n.png)
 ![CONTACT](https://res.cloudinary.com/dvgudwocb/image/upload/v1664416897/github-reade-me/Agency-landing-page_4_okdiel.png)
